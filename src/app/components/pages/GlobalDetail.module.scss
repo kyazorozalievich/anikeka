@@ -1,0 +1,32 @@
+.detailMain {
+  padding-top: 150px;
+  .detail {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    position: relative;
+    a {
+      position: absolute;
+      top: 0px;
+      left: 20px;
+      font-size: 30px;
+    }
+    h1 {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      font-size: 40px;
+      letter-spacing: 20px;
+      text-shadow: 5px 5px 10px darkorchid;
+    }
+    .characters {
+      display: flex;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 30px;
+    }
+  }
+}

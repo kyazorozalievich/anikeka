@@ -1,0 +1,46 @@
+.myWatchAnime {
+  margin-top: 50px;
+  .content {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+    .blocks {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      .block {
+        width: 470px;
+        height: 250px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        .bg {
+          width: 100%;
+          height: 100%;
+          position: absolute;
+          top: 0;
+          left: 0;
+          background: rgba(0, 0, 0, 0.473);
+          border-radius: 10px;
+        }
+        img {
+          z-index: -1;
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          border-radius: 10px;
+        }
+        h1 {
+          z-index: 1;
+          color: white;
+        }
+      }
+    }
+  }
+}

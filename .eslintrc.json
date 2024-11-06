@@ -1,0 +1,6 @@
+{
+  "extends": ["next/core-web-vitals", "next/typescript"],
+  "rules": {
+    "eslint-rule-name": "off" // Замените "eslint-rule-name" на конкретное правило
+  }
+}

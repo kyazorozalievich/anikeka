@@ -1,0 +1,14 @@
+.block {
+  width: 210px;
+  height: 250px;
+  img {
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  h2 {
+    text-shadow: 5px 5px 10px darkorchid;
+    font-size: 20px;
+  }
+}
